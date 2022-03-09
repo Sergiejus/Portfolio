@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+     "header header header"
+     "nav nav nav"
+     "main main main"
+     "footer footer footer";
+}
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 1.5em;
+}
+header{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    display: grid;
+}
