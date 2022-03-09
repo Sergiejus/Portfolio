@@ -2,3 +2,12 @@ body {
     background-image: url("images/portfolio_background.jpg");
     background-size: cover;
   }
+  header {
+    color: white;
+    padding: 20px;
+    grid-area: header;
+}
+nav {
+  color: white;
+  grid-area: nav;
+}
