@@ -10,6 +10,8 @@ body {
      "nav"
      "main"
      "footer";
+     height: 100vh;
+    background-position: center;
 }
 .shownav {
     height: 0.8em;

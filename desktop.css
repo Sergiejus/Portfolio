@@ -29,3 +29,13 @@ header{
 header a{
     display: none;
 }
+form {
+    display: grid;
+    width: 400px;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+    grid-gap: 0.5em;
+    }
+    .submit {
+    grid-column: 1/3;
+    }
