@@ -37,3 +37,11 @@ body {
 #button .off {display: none;}
 #button:target .shownav {display: none;}
 #button:target .off {display: block;}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    color: grey;
+    margin: auto;
+}
