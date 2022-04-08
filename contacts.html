@@ -9,10 +9,14 @@
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 1000px)" />
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1000px)" />
     <link rel="icon" href="https://img.icons8.com/cute-clipart/64/000000/apple-contacts.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9e7d056638.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Sergiejus Smirnovas</h1>
+        <h1>Contacts</h1>
     </header>
     <nav>
         <ul>
@@ -24,11 +28,12 @@
         </ul>
     </nav>
     <main>
-    <p id="pcont">I WOULD LIKE TO HEAR FROM YOU</p>
+        <p id="pcont">I WOULD LIKE TO HEAR FROM YOU</p>
     </main>
     <form action="action" method="GET">
-        <label for="name">First name: </label><input type="text" name="myinput" id="name" required/>
-        <label for="paswrd">Password: </label> <input type="text" name="pass" id="paswrd" />
+        <input type="text" name="myinput" placeholder="Enter your name...."  id="name" required/>
+        <input type="text" name="mail" placeholder="Enter your email...." id="email" required/>
+        <textarea name="mytextarea" placeholder="Enter your message here...."></textarea>
         
         <input type="submit" class="submit" value="Submit" name="submit" />
     </form>
