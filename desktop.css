@@ -28,7 +28,6 @@ header{
     text-align: center;
     color: white;
     display: grid;
-    animation: move 10s infinite ease-in;
 }
 header a{
     display: none;
@@ -54,9 +53,9 @@ footer{
     color: grey;
     margin-left: auto;
 }
-#pcont{
+.contactmain p{
     font-size: 3em;
-    padding: 180px 1em;
+    padding: 4em 1em 0 1em;
     color: white;
     text-align: right;
 }
@@ -87,12 +86,12 @@ textarea{
 .index p {
     font-size: 3em;
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 0.25em;
 }
 .indexmain{
     padding: 1em;
-    margin: 5em;
+    margin: 8em;
 }
 .contactmain p{
     font-family: 'Grape Nuts', cursive;
@@ -106,7 +105,7 @@ textarea{
      "main"
      "footer";
 }
-.web{
+.img{
     height: 45%;
     width: 20%;
     border-radius: 20%;
@@ -115,23 +114,6 @@ textarea{
 .mainportfolio{
     text-align: center;
     margin-top: 3em;
-}
-@keyframes move {
-    0% {
-        color: white;
-    }
-    25% {
-        color: blue;
-    }
-    50% {
-        color: red;
-    }
-    75% {
-        color: yellow;
-    }
-    100% {
-        color: white;
-    }
 }
 .mainblog article{
     display: grid;
@@ -149,19 +131,19 @@ textarea{
      "footer";
 }
 .section1{
-    padding:10%;
+    padding:5%;
     background: rgba(255,255,255,0.5);
     border-radius: 1em;
     border-style: solid;
 }
 .section2{
-    padding:10%;
+    padding:5%;
     background: rgba(255,255,255,0.5);
     border-radius: 1em;
     border-style: solid;
 }
 .section3{
-    padding:10%;
+    padding:5%;
     background: rgba(255,255,255,0.5);
     border-radius: 1em;
     border-style: solid;
@@ -169,4 +151,15 @@ textarea{
 h2{
     text-align: center;
     margin-bottom: 2em;
+}
+.icon{
+    width: 3em;
+    height: 3em;
+}
+p + a{
+    margin-left: 25em;
+    margin-right: 2em;
+}
+a{
+    text-decoration: none;
 }

@@ -6,8 +6,26 @@ body {
     color: white;
     padding: 20px;
     grid-area: header;
+    animation: move 10s infinite ease-in;
 }
 nav {
   color: white;
   grid-area: nav;
+}
+@keyframes move {
+  0% {
+      color: white;
+  }
+  25% {
+      color: blue;
+  }
+  50% {
+      color: red;
+  }
+  75% {
+      color: yellow;
+  }
+  100% {
+      color: white;
+  }
 }

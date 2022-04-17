@@ -28,6 +28,21 @@ body {
     margin-top: 0.3em;
     border-top: 0.2em solid #fff;
 }
+nav {
+    display: block;
+    background-color: white;
+    grid-area: nav;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    padding: 2em;
+    transform: translate(100%, 0);
+    transition: transform 0.5s ease-in;
+    background-image: url("images/portfolio_background.jpg");
+    background-size: cover;
+}
 #button:target nav {
     display: block;
     transform: none;
@@ -44,4 +59,23 @@ footer{
     height: 2em;
     color: grey;
     margin: auto;
+}
+h1{
+    text-align: center;
+}
+.indexmain p{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+.img{
+    height: 45%;
+    width: 20%;
+    border-radius: 20%;
+    padding: 1em;
 }
