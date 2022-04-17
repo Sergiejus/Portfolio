@@ -46,10 +46,10 @@ form {
     background-color: grey;
 }
 footer{
-    position: absolute;
+    grid-area: footer;
     bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 1em;
     color: grey;
     margin-left: auto;
 }
