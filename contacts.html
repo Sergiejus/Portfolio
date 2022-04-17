@@ -12,9 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/9e7d056638.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="button" class="contacts">
     <header>
         <h1>Contacts</h1>
     </header>
@@ -27,10 +26,10 @@
             <li><a href=contacts.html>Contacts</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="contactmain">
         <p id="pcont">I WOULD LIKE TO HEAR FROM YOU</p>
     </main>
-    <form action="action" method="GET">
+    <form action="mailto:sergiejus.smirnovas21@my.northampton.ac.uk?subject=Contact Form" method="POST">
         <input type="text" name="myinput" placeholder="Enter your name...."  id="name" required/>
         <input type="text" name="mail" placeholder="Enter your email...." id="email" required/>
         <textarea name="mytextarea" placeholder="Enter your message here...."></textarea>
