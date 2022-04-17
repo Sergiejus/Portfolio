@@ -7,10 +7,10 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas: "header"
-     "nav"
-     "main"
-     "footer";
-     height: 100vh;
+    "nav"
+    "main"
+    "footer";
+    height: 100vh;
     background-position: center;
 }
 .shownav {
@@ -72,10 +72,73 @@ h1{
 nav ul a{
     color: white;
     text-decoration: none;
+    font-size: 2em;
 }
 .img{
-    height: 45%;
+    height: 35%;
     width: 20%;
     border-radius: 20%;
     padding: 1em;
+}
+nav ul{
+    list-style-type: none;
+    text-align: left;
+}
+.off{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+nav ul li{
+    padding: 5%;
+}
+h3{
+    text-align: center;
+    margin-top: -4em;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 2em;
+}
+.mainportfolio{
+    text-align: center;
+}
+.section1{
+    padding:5%;
+    background: rgba(255,255,255,0.5);
+    border-radius: 1em;
+    border-style: solid;
+}
+.section2{
+    padding:5%;
+    background: rgba(255,255,255,0.5);
+    border-radius: 1em;
+    border-style: solid;
+}
+.section3{
+    padding:5%;
+    background: rgba(255,255,255,0.5);
+    border-radius: 1em;
+    border-style: solid;
+}
+.icon{
+    display: none;
+}
+.contactmain p{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    margin: -4em;
+}
+form {
+    margin: -10em 1em 0em 1em;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 0.5em;
+}
+textarea {
+    width: 99,5%;
+    height: 15em;
+    resize: none;
 }

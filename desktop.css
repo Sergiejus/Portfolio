@@ -54,6 +54,7 @@ footer{
     margin-left: auto;
 }
 .contactmain p{
+    font-family: 'Grape Nuts', cursive;
     font-size: 3em;
     padding: 4em 1em 0 1em;
     color: white;
@@ -92,9 +93,6 @@ textarea{
 .indexmain{
     padding: 1em;
     margin: 8em;
-}
-.contactmain p{
-    font-family: 'Grape Nuts', cursive;
 }
 .portfolio{
     display: grid;
@@ -162,4 +160,10 @@ p + a{
 }
 a{
     text-decoration: none;
+}
+h3{
+    padding-top: -1em;
+    margin-top: -1em;
+    font-size: 2.5em;
+    color: rgb(237, 83, 6);
 }
