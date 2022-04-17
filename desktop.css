@@ -111,7 +111,6 @@ textarea{
     width: 20%;
     border-radius: 20%;
     padding: 1em;
-
 }
 .mainportfolio{
     text-align: center;
@@ -121,21 +120,53 @@ textarea{
     0% {
         color: white;
     }
-
     25% {
         color: blue;
     }
-
     50% {
         color: red;
     }
-
     75% {
         color: yellow;
     }
-
     100% {
         color: white;
     }
-
+}
+.mainblog article{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 1%;
+    grid-template-rows: auto;
+}
+.blogbody{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "header"
+     "nav"
+     "main"
+     "footer";
+}
+.section1{
+    padding:10%;
+    background: rgba(255,255,255,0.5);
+    border-radius: 1em;
+    border-style: solid;
+}
+.section2{
+    padding:10%;
+    background: rgba(255,255,255,0.5);
+    border-radius: 1em;
+    border-style: solid;
+}
+.section3{
+    padding:10%;
+    background: rgba(255,255,255,0.5);
+    border-radius: 1em;
+    border-style: solid;
+}
+h2{
+    text-align: center;
+    margin-bottom: 2em;
 }
